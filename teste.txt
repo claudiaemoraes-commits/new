@@ -1,0 +1,1 @@
+Para criar novas lista a partir de operações feitas em for. Podemos utilizar o recursos de list compreenshion. Que faz operação, itera e condiciona conforme a necessidade do código em apenas um linhas conforme código abaixo:
