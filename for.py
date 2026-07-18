@@ -62,3 +62,6 @@ for nome, nota in notas.items():
         print(f"{nome} aluno reprovado!")
 
 
+# Quadrado de números 
+
+num = {1:1, 2:4, 3:9, 4:16, 5:25}
