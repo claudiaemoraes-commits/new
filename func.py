@@ -37,7 +37,6 @@ escolha = [ ]
 final = 0
 concluir = -1
 
-while concluir != -1:
-    for i in escolha:
 
-    
+
+## !! Faltou colocar def em cada qeustão
