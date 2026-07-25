@@ -110,10 +110,41 @@ while sair != 0:
         break
 
 
+# Tentativas de Login
+
+Nome = str(input("Digite seu nome: ", \n))
+Senha = str(input("Digite a sua senha: ", \n))
+Login = 0
+Error = 3
+
+while Login != 0 and Error < 3:
+    if Nome == "usuario" and Senha == "senha":
+        print("Login realizado com sucesso!")
+        Login = 0
+    else:
+        print("Nome ou senha incorreta. Tente novamente!")
+        Error +=1
+        if Error == 3:
+            print("Número máximo de tentativas atingido. Acesso negado!")
+            break
+        Nome
+
+# Soma de números positivos
+n1 = int(input("digite números inteiros: ", \n))
+n2 = int(input("digite outro número inteiro: ", \n))
+
+while n1 > 0 and n2 > 0:
+    soma = n1 + n2
+
+print(f"O valor da somatória foi: {soma}.")
 
 
 
 
 
-
-
+3. Controle de tentativas de login
+Permita ao usuário tentar fazer login no máximo 3 vezes. Se ele errar todas, exiba "Conta bloqueada". Se acertar antes, exiba "Login realizado com sucesso".
+4. Soma de números positivos
+Peça números inteiros. Some apenas os positivos. Pare quando o usuário digitar um número negativo e mostre o total da soma.
+5. Lista de tarefas
+Permita que o usuário adicione tarefas (input) a uma lista. Continue pedindo até que ele digite "fim". Ao final, imprima todas as tarefas cadastradas.
